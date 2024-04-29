@@ -8,7 +8,7 @@ import Project from "./Project";
 
 const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       name: "ToDo App",
       img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/todogif.fd727e07.gif",
