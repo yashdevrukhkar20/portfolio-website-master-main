@@ -10,52 +10,33 @@ const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([
     {
-      name: "Quiz App",
-      img: "https://user-images.githubusercontent.com/93373467/183861384-57289203-d962-4c0e-87fe-095d3b1645f7.gif",
-      feature:
-        "Quiz Application made using MERN Stack. Where user can attemp quiz and get result. Also user can access his old quiz result. Tech-stack : [React,NodeJs,ExpressJs,MongoDB] ",
-      Link: "",
-      Github: "https://github.com/yashdevrukhkar20/Quiz_App",
-    },
-    {
       name: "ToDo App",
       img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/todogif.fd727e07.gif",
       feature: "Todo Application made with ReactJs. Tech-stack : [React] ",
-      Link: "https://todo-app-vab-devv.netlify.app/",
-      Github: "https://github.com/yashdevrukhkar20/Todo-app-react-js",
-    },
-    // {
-    //   name: "Portfolio Website",
-    //   img: "https://user-images.githubusercontent.com/93373467/183902755-f334ba41-b7d6-4e8a-88a8-ba23e1070914.gif",
-    //   feature:
-    //     "Portfolio website where user can see my projects and skills. Tech-stack : [React,NodeJs,ExpressJs,MongoDB] ",
-    //   Link: "https://vaibhav-dev-portfolio.netlify.app/",
-    //   Github: "https://github.com/yashdevrukhkar20/portfolio-website",
-    // },
-    {
-      name: "E-commerce Website",
-      img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/bellavitagif.5916a95a.gif",
-      feature:
-        "Fully functional E-commerce website where user can signin and buy products. Tech-stack : [HTML,CSS,JavaScript,NodeJs,MongoDb,ExpressJs]",
-      Link: "https://bellavitaorganic-cloned.herokuapp.com/",
-      Github:
-        "https://github.com/yashdevrukhkar20/Bella_Vita_Organic_Clone_Backend",
+      Link: "https://todo-app-amber-six.vercel.app/",
+      Github: "https://github.com/yashdevrukhkar20/todo-app",
     },
     {
-      name: "E-commerce Website",
-      img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/plumgoodness.de00e664.png",
-      feature:
-        "Frontend E-commerce website where user can signin and buy products with dummy payment. Tech-stack : [HTML,CSS,JavaScript]",
-      Link: "https://plumgoodness-clone.netlify.app/",
-      Github: "https://github.com/yashdevrukhkar20/Clone-of-plumgoodness.com",
+      name: "MI Store Clone App",
+      img: "https://github.com/vaibhav123-dev/vaibhav123-dev/assets/81352701/1ad6aac5-1c59-4120-9190-5bd96638853b",
+      feature: "MI Store Clone App made with ReactJs. Tech-stack : [React] ",
+      Link: "https://mi-store-clone-delta.vercel.app/",
+      Github: "https://github.com/yashdevrukhkar20/mi-store-clone",
     },
     {
-      name: "Movie Website",
-      img: "https://vaibhav-darvekar-portfolio.netlify.app/static/media/moviegif.72206402.gif",
+      name: "Zomato Clone App",
+      img: "https://github.com/vaibhav123-dev/vaibhav123-dev/assets/81352701/3f8bd979-76a8-4abd-abf8-2e5e0de65771",
+      feature: "Zomato made with ReactJs. Tech-stack : [React] ",
+      Link: "https://zomato-clone-gold-pi.vercel.app//",
+      Github: "https://github.com/yashdevrukhkar20/mi-store-clone",
+    },
+    {
+      name: "Portfolio Website",
+      img: "https://github.com/vaibhav123-dev/vaibhav123-dev/assets/81352701/13e4d4eb-5454-44e4-ab1c-addaf89d63c0",
       feature:
-        "Simple movie application where user can search for movie and get details. Teck-stack : [HTML,CSS,JavaScript]",
-      Link: "https://nightowl-movie-app.netlify.app/",
-      Github: "https://github.com/yashdevrukhkar20/Movie-app",
+        "Portfolio website where user can see my projects and skills. Tech-stack : [React,NodeJs,ExpressJs,MongoDB] ",
+      Link: "https://vaibhav-dev-portfolio.netlify.app/",
+      Github: "https://github.com/yashdevrukhkar20/portfolio-website-master-main",
     },
   ]);
   const [active, setActive] = useState(0);
