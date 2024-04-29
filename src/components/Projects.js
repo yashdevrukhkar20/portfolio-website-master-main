@@ -35,7 +35,7 @@ const Projects = () => {
       img: "https://github.com/vaibhav123-dev/vaibhav123-dev/assets/81352701/13e4d4eb-5454-44e4-ab1c-addaf89d63c0",
       feature:
         "Portfolio website where user can see my projects and skills. Tech-stack : [React,NodeJs,ExpressJs,MongoDB] ",
-      Link: "https://vaibhav-dev-portfolio.netlify.app/",
+      Link: "https://portfolio-delta-rouge-20.vercel.app//",
       Github: "https://github.com/yashdevrukhkar20/portfolio-website-master-main",
     },
   ]);
